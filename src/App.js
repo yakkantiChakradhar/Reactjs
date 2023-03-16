@@ -1,23 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
-
+import PropsOfReact from './newly/PropsOfReact_1';
+import StateOfReact from './newly/StateOfReact_2';
+import SetStateOfReact from './newly/SetStateOfReact_3';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <PropsOfReact name="cran" atName="crayon" />
+    <StateOfReact />
+    <SetStateOfReact />
     </div>
   );
 }
