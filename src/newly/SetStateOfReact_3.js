@@ -45,20 +45,30 @@ import React, { Component } from 'react'
     }
     increamentUpdating(){
         // 1) We always want to update the state by using the setState itslef 
-        this.setState({count: this.state.count+1})
+       // this.setState({count: this.state.count+1})
        // 2) we always want to check it by using second parameter as call back function
-       this.setState({count: this.state.count+1},()=>console.log("callback value",this.state.count))
+      // this.setState({count: this.state.count+1},()=>console.log("callback value",this.state.count))
+
+      // 3) when you have to update state, based on the previous state value,pass in a function as an argument instead of regular object
+       this.setState((prevState)=>({count : prevState.count+5}))
     }
+   /* 3)
+    incrementFive(){
+        this.increamentUpdating();
+        this.increamentUpdating();
+    } */
     resetTo(){
         this.setState({count: 0})
     }
+
+    
 
 
   render() {
     return (
     <div>
       <div>count - {this.state.count}</div><br />
-      <button onClick={()=>this.increamentUpdating()}>increase</button>
+      <button onClick={()=>this.increamentFive()}>increase</button>
       <button onClick={()=>this.resetTo()}>reset</button>
     </div>
     )
