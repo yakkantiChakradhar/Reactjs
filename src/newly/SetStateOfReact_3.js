@@ -68,7 +68,7 @@ import React, { Component } from 'react'
     return (
     <div>
       <div>count - {this.state.count}</div><br />
-      <button onClick={()=>this.increamentFive()}>increase</button>
+      <button onClick={()=>this.increamentUpdating()}>increase</button>
       <button onClick={()=>this.resetTo()}>reset</button>
     </div>
     )
