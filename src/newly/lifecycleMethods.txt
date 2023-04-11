@@ -1,0 +1,59 @@
+Life cycle methods in REACT class component
+```````````````````````````````````````````
+There are several stages of life cycle in react class component, there are some built in methods that we can override in this life cycle methods.
+
+There are 4 stages in life cycle of react class component
+1> Mounting
+2> Updating
+3> Unmounting
+4> Error Handling
+
+1> MOUNTING: -
+   ````````
+
+ When an instance of a component is being created and insterted into the DOM.
+  
+            There are 4 methods in this mounting face, they are
+
+                 * Constructor()
+
+                 * Static getDerivedStateFromProps()
+
+                 * Render()
+
+                 * componentDidMount()
+
+2> UPDATING: -
+   ````````
+   When a component is being re-rendered as a result of changes to either its props or state.
+
+            There are 5 methods in this Updating face, they are
+
+                 * static getDerivedStateFromProps()
+
+                 * shouldComponentUpdate()
+
+                 * render()
+
+                 * getSnapShotBeforeUpdate()
+
+                 * ComponentDidUpdate()
+        
+3> UNMOUNTING: -
+   ``````````
+   When  a component is being removed from the DOM
+    
+               There is only one method in this Unmounting face.
+
+                 * componentWillUnmount()
+
+4> ERROR HANDLING: -
+   ``````````````
+    When there is an error during rendering, in a lifecycle method or in the Constructor of any child component.
+
+              There are 2 methods in this Error Handling.
+
+                 * static getDerivedStateFromError()
+
+                 * componentDidCatch()
+

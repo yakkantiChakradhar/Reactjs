@@ -1,4 +1,5 @@
 import './App.css';
+import FormValidation from './newly/FormValidation_10';
 /* import PropsOfReact from './newly/PropsOfReact_1';
 import StateOfReact from './newly/StateOfReact_2';
 import SetStateOfReact from './newly/SetStateOfReact_3';
@@ -9,9 +10,9 @@ import MethodsAsProps from './newly/MethodsAsProps_7';
 import ConditionalRendering from './newly/ConditionalRendering_8';
  import ListRendering from './newly/ListRendering_9'; 
 import ListRender from './newly/ListRendering_9.1'; */
-import StyleSheets from './newly/StyleSheets';
+/* import StyleSheets from './newly/StyleSheets';
 import './cssStyle.css';
-import styles from './cSSStyle.module.css'
+import styles from './cSSStyle.module.css' */
 function App() {
   return (
     <div className="App">
@@ -26,9 +27,11 @@ function App() {
     <ConditionalRendering />
     {/* <ListRendering /> */}
    {/*  <ListRender />  */}
-<StyleSheets primary={true} />
+{/* <StyleSheets primary={true} />
 <h1 className='error'>Error handling</h1>
-<h2 className={styles.handling}>Editing handiled</h2>
+<h2 className={styles.handling}>Editing handiled</h2> */}
+
+<FormValidation />
     </div>
   );
 }
