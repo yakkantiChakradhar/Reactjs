@@ -1,5 +1,8 @@
 import './App.css';
-import FormValidation from './newly/FormValidation_10';
+import FragmentDemo from './newly/FragmentDemo_11';
+
+/* import FormValidation from './newly/FormValidation_10'; */
+//import LifeCycleMethods from './newly/LifeCycleMethods';
 /* import PropsOfReact from './newly/PropsOfReact_1';
 import StateOfReact from './newly/StateOfReact_2';
 import SetStateOfReact from './newly/SetStateOfReact_3';
@@ -31,7 +34,9 @@ function App() {
 <h1 className='error'>Error handling</h1>
 <h2 className={styles.handling}>Editing handiled</h2> */}
 
-<FormValidation />
+{/* <FormValidation /> */}
+{/* <LifeCycleMethods /> */}
+<FragmentDemo />
     </div>
   );
 }

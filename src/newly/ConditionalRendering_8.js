@@ -54,6 +54,7 @@ class ConditionalRendering extends Component {
         this.state.isLoggedIn ? <div>Welcome shiva</div> : <div>welcome daniel</div>
     ) */
 /* 4> short circuit*/
+
     return this.state.isLoggedIn && <div>Welcome vishwas</div>
 
   }
