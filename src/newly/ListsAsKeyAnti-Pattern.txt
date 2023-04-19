@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 It is difficult to use the "key" in list of an array without any Identity as unique.
 if we use it will be effected, incase of any chances Index value of array can be used as KEY Identity. some of the scenarios are mentioned below.
 
 1> The Items in your list do not have a unique id.
 2> The list is a static list and will not change.
+=======
+It is difficult to use the "key" in list of an array without any Identity as unique.
+if we use it will be effected, incase of any chances Index value of array can be used as KEY Identity. some of the scenarios are mentioned below.
+
+1> The Items in your list do not have a unique id.
+2> The list is a static list and will not change.
+>>>>>>> ada6e9a0e7663a75060c94cf06a5b470ad4f30fa
 3> The list will never be reOrdered or filtered.
