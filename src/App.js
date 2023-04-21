@@ -1,6 +1,8 @@
 import './App.css';
+import MemoParent from './newly/MemoParent';
+//
 //import FragmentDemo from './newly/FragmentDemo_11';
-import PureComp from './newly/PureComponent_12';
+//import PureComp from './newly/PureComponent_12';
 
 /* import FormValidation from './newly/FormValidation_10'; */
 //import LifeCycleMethods from './newly/LifeCycleMethods';
@@ -38,7 +40,8 @@ function App() {
 {/* <FormValidation /> */}
 {/* <LifeCycleMethods /> */}
 {/* <FragmentDemo /> */}
-<PureComp />
+{/* <PureComp /> */}
+<MemoParent ></MemoParent>
     </div>
   );
 }

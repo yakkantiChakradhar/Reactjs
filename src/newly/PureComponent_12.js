@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* 
 Pure Component: -
 ```````````````
@@ -95,7 +95,7 @@ SUMMARY: -
 * If there is no difference, the component is not re-rendered performance boost.
 * It is a good idea to ensure that all the children components are also dare to avoid unexpected behaviour.
 * Never mutate the state. Always return a new object that reflects the new state.
-=======
+
 /* 
 Pure Component: -
 ```````````````
