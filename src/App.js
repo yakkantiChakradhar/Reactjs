@@ -1,5 +1,8 @@
 import './App.css';
-import MemoParent from './newly/MemoParent';
+import FRparentInput from './newly/FRparentInput';
+//import FocusInput from './newly/FocusInput13_1.2';
+//import ReactRefs from './newly/ReactRefs_13';
+// import MemoParent from './newly/MemoParent';
 //
 //import FragmentDemo from './newly/FragmentDemo_11';
 //import PureComp from './newly/PureComponent_12';
@@ -41,7 +44,10 @@ function App() {
 {/* <LifeCycleMethods /> */}
 {/* <FragmentDemo /> */}
 {/* <PureComp /> */}
-<MemoParent ></MemoParent>
+{/* <MemoParent ></MemoParent> */}
+{/* <ReactRefs /> */}
+{/* <FocusInput /> */}
+<FRparentInput />
     </div>
   );
 }
