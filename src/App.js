@@ -1,5 +1,7 @@
 import './App.css';
-import FRparentInput from './newly/FRparentInput';
+import ErrorBoundary from './newly/ErrorBoundary';
+import HeroError from './newly/HeroError';
+//import FRparentInput from './newly/FRparentInput';
 //import FocusInput from './newly/FocusInput13_1.2';
 //import ReactRefs from './newly/ReactRefs_13';
 // import MemoParent from './newly/MemoParent';
@@ -47,7 +49,12 @@ function App() {
 {/* <MemoParent ></MemoParent> */}
 {/* <ReactRefs /> */}
 {/* <FocusInput /> */}
-<FRparentInput />
+{/* <FRparentInput /> */}
+<ErrorBoundary><HeroError heroName='batman'/></ErrorBoundary>
+<ErrorBoundary><HeroError heroName='superman'/></ErrorBoundary>
+<ErrorBoundary><HeroError heroName='joker'/></ErrorBoundary>
+
+
     </div>
   );
 }
