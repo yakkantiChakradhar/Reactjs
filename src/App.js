@@ -1,6 +1,9 @@
 import './App.css';
-import ErrorBoundary from './newly/ErrorBoundary';
-import HeroError from './newly/HeroError';
+import ClickCounterHOC from './newly/ClickCounterHOC';
+import HoverCounterHOC from './newly/HoverCounterHOC';
+//import UpdateComponent from './newly/WithCounter';
+/* import ErrorBoundary from './newly/ErrorBoundary';
+import HeroError from './newly/HeroError'; */
 //import FRparentInput from './newly/FRparentInput';
 //import FocusInput from './newly/FocusInput13_1.2';
 //import ReactRefs from './newly/ReactRefs_13';
@@ -50,9 +53,12 @@ function App() {
 {/* <ReactRefs /> */}
 {/* <FocusInput /> */}
 {/* <FRparentInput /> */}
-<ErrorBoundary><HeroError heroName='batman'/></ErrorBoundary>
+{/* <ErrorBoundary><HeroError heroName='batman'/></ErrorBoundary>
 <ErrorBoundary><HeroError heroName='superman'/></ErrorBoundary>
-<ErrorBoundary><HeroError heroName='joker'/></ErrorBoundary>
+<ErrorBoundary><HeroError heroName='joker'/></ErrorBoundary> */}
+<ClickCounterHOC fname="yakkanti" />
+<HoverCounterHOC fname="chakri" /> 
+
 
 
     </div>
