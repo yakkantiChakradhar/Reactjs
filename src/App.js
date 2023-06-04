@@ -1,8 +1,11 @@
 import './App.css';
-import ClickRendering from './newly/ClickRendering';
+import PostList from './componetsHTTP/PostList';
+/* import ComponentC from './newly/ComponentC';
+import { UserProvider } from './newly/UserContext'; */
+/* import ClickRendering from './newly/ClickRendering';
 import CounterRendering from './newly/CounterRendering';
 import HoverRendering from './newly/HoverRendering';
-import RenderProps from './newly/RenderProps_1';
+import RenderProps from './newly/RenderProps_1'; */
 /* import ClickCounterHOC from './newly/ClickCounterHOC';
 import HoverCounterHOC from './newly/HoverCounterHOC'; */
 //import UpdateComponent from './newly/WithCounter';
@@ -62,10 +65,14 @@ function App() {
 <ErrorBoundary><HeroError heroName='joker'/></ErrorBoundary> */}
 {/* <ClickCounterHOC fname="yakkanti" />
 <HoverCounterHOC fname="chakri" />  */}
-<RenderProps name={(isloggedin)=>isloggedin ?'chakri':"guest"} />
+{/* <RenderProps name={(isloggedin)=>isloggedin ?'chakri':"guest"} />
 
 <CounterRendering render={(count,incrementcount)=>(<ClickRendering count={count} incrementcount={incrementcount} />)} />
-<CounterRendering render={(count,incrementcount)=>(<HoverRendering count={count} incrementcount={incrementcount}/>)} />
+<CounterRendering render={(count,incrementcount)=>(<HoverRendering count={count} incrementcount={incrementcount}/>)} /> */}
+{/* <UserProvider value="chakradhar">
+  <ComponentC/>
+  </UserProvider> */}
+<PostList />
     </div>
   );
 }
